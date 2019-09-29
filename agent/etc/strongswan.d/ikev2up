@@ -1,0 +1,20 @@
+#!/bin/bash
+case "$PLUTO_VERB:$1" in
+up-client:)
+  kind=1
+  host='api.feitivpn.xyz'
+  ip=$(echo $PLUTO_PEER_CLIENT|cut -d '/' -f1)
+  hash=$PLUTO_XAUTH_ID
+  body="{\"command\": \"v2_sys_vpn_auth\", \"hash\": \"$hash\", \"kind\": \"$kind\"}"
+  response=$(curl "https://$host" -g -s --insecure -H 'Content-Type: application/json' -X POST -d "$body")
+  if [ $response = '1' ]; then
+      oldip=$(ipsec leases|grep -v 'Leases in pool'|grep online|grep "'$hash'"|grep -v $ip|head -1|awk '{print $1}')
+      if [ $oldip ]; then
+         echo $oldip > /etc/strongswan.d/invalid/$oldip 
+      fi
+  else
+      echo $ip > /etc/strongswan.d/invalid/$ip 
+  fi
+;;
+
+esac

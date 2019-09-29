@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>客服信息 -- Support</title>
+    <style type="text/css">
+        header {
+            width: 100%;
+            background-color: #4f81bd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header div {
+            color: white;
+            font-weight: bold;
+        }
+
+        #page {
+            width: 100%;
+            text-align: center;
+            background-color: #4f81bd;
+            margin-top:5px;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="data:image/png;base64,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" />
+        <div>FeiTi Support</div>
+        <div>飞梯VPN客服信息</div>
+    </header>
+    <div id="page">
+        <div>Thanks for contacting FeiTi Support, please send mail to feitisupport@163.com. We will reply ASAP!</div>
+        <div>您好，感谢联系飞梯客服，请发送邮件至feitisupport@163.com，我们会尽快回复！</div>
+    </div>
+</body>
+</html>

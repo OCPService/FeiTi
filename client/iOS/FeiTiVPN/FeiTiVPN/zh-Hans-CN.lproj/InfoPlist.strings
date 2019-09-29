@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  FeiTiVPN
+
+  Created by FeiTi on 02/02/2017.
+  Copyright © 2017 FeiTi. All rights reserved.
+*/
+CFBundleDisplayName = "飞梯VPN";

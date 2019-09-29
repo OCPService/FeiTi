@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1306373C1DF54857009A544C /* BuyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306373B1DF54857009A544C /* BuyPage.swift */; };
+		130A7A581E24AB2600790904 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130A7A571E24AB2600790904 /* HomePage.swift */; };
+		1314D7681E2DC058004902D1 /* FeiTiAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1314D7671E2DC058004902D1 /* FeiTiAPIError.swift */; };
+		132BE3791E436E0200F517A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 132BE37B1E436E0200F517A7 /* Localizable.strings */; };
+		132E23E81DE840D6006C1A3A /* ConnectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132E23E71DE840D6006C1A3A /* ConnectPage.swift */; };
+		134EE1A51DFBED5A0004CE2F /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EE1A41DFBED5A0004CE2F /* SettingsPage.swift */; };
+		1370D0C41E3B11DD00B8E2D7 /* NotificationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1370D0C31E3B11DD00B8E2D7 /* NotificationsPage.swift */; };
+		137BFF811DED69790080C91B /* AdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BFF801DED69790080C91B /* AdData.swift */; };
+		137BFF831DED6CB80080C91B /* NotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BFF821DED6CB80080C91B /* NotificationData.swift */; };
+		137BFF861DED75E80080C91B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BFF851DED75E80080C91B /* Utility.swift */; };
+		138B813D1E291568002AC61B /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B813C1E291568002AC61B /* ProfilePage.swift */; };
+		138B813F1E29D35A002AC61B /* ChangePasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B813E1E29D35A002AC61B /* ChangePasswordPage.swift */; };
+		139205381E3B8BBF00E38120 /* PointsToVipPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139205371E3B8BBF00E38120 /* PointsToVipPage.swift */; };
+		1398F1201E4EC6380085323B /* IAPData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398F11F1E4EC6380085323B /* IAPData.swift */; };
+		139BAFF41DE947C900D01E12 /* ServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BAFF31DE947C900D01E12 /* ServerData.swift */; };
+		13A134981DE3E6F10076E7AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A134971DE3E6F10076E7AE /* AppDelegate.swift */; };
+		13A1349A1DE3E6F10076E7AE /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A134991DE3E6F10076E7AE /* SignInPage.swift */; };
+		13A1349D1DE3E6F10076E7AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A1349B1DE3E6F10076E7AE /* Main.storyboard */; };
+		13A1349F1DE3E6F10076E7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A1349E1DE3E6F10076E7AE /* Assets.xcassets */; };
+		13A134AB1DE3E7C60076E7AE /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A134AA1DE3E7C60076E7AE /* NetworkExtension.framework */; };
+		13A134B11DE3E8330076E7AE /* AdMob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A134B01DE3E8330076E7AE /* AdMob.swift */; };
+		13A134B31DE3E9B40076E7AE /* IAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A134B21DE3E9B40076E7AE /* IAP.swift */; };
+		13A134B51DE3EAAE0076E7AE /* IKev2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A134B41DE3EAAE0076E7AE /* IKev2.swift */; };
+		13A134BC1DE3ED140076E7AE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A134BA1DE3ED140076E7AE /* UIViewControllerExtension.swift */; };
+		13A134BD1DE3ED140076E7AE /* BasicExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A134BB1DE3ED140076E7AE /* BasicExtension.swift */; };
+		13BCD41A1E42E9F2007E7400 /* client.cer in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD4191E42E9F2007E7400 /* client.cer */; };
+		13BCD4221E42FF3E007E7400 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD4241E42FF3E007E7400 /* InfoPlist.strings */; };
+		13D025111E41BBCB00244617 /* ManualDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D025101E41BBCB00244617 /* ManualDetailPage.swift */; };
+		13D025141E41C1E200244617 /* manual_connect_cn in Resources */ = {isa = PBXBuildFile; fileRef = 13D025121E41C1E200244617 /* manual_connect_cn */; };
+		13D025151E41C1E200244617 /* manual_connect_en in Resources */ = {isa = PBXBuildFile; fileRef = 13D025131E41C1E200244617 /* manual_connect_en */; };
+		13D025181E41D77300244617 /* manual_points_cn in Resources */ = {isa = PBXBuildFile; fileRef = 13D025161E41D77300244617 /* manual_points_cn */; };
+		13D025191E41D77300244617 /* manual_points_en in Resources */ = {isa = PBXBuildFile; fileRef = 13D025171E41D77300244617 /* manual_points_en */; };
+		13E639001DFA7EDE00A513AB /* ManualPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E638FF1DFA7EDE00A513AB /* ManualPage.swift */; };
+		13E639021DFA8C4E00A513AB /* manual_qna_cn in Resources */ = {isa = PBXBuildFile; fileRef = 13E639011DFA8C4E00A513AB /* manual_qna_cn */; };
+		13E639041DFAA60500A513AB /* manual_qna_en in Resources */ = {isa = PBXBuildFile; fileRef = 13E639031DFAA60500A513AB /* manual_qna_en */; };
+		13EFD30D1DE9AE54000DF0B6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFD30B1DE9AE54000DF0B6 /* UserData.swift */; };
+		13EFD3131DEAC5A4000DF0B6 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFD3121DEAC5A4000DF0B6 /* LocalStorage.swift */; };
+		13EFD3151DEACEA9000DF0B6 /* FeiTiAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFD3141DEACEA9000DF0B6 /* FeiTiAPI.swift */; };
+		88C49F401F0DD5A40043B1B1 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C49F3F1F0DD5A40043B1B1 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1306373B1DF54857009A544C /* BuyPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyPage.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		130A7A571E24AB2600790904 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		1314D7671E2DC058004902D1 /* FeiTiAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeiTiAPIError.swift; sourceTree = "<group>"; };
+		132BE37A1E436E0200F517A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		132BE37C1E436E2500F517A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		132BE37D1E436E2700F517A7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		132E23E71DE840D6006C1A3A /* ConnectPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectPage.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		134EE1A41DFBED5A0004CE2F /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		1370D0C31E3B11DD00B8E2D7 /* NotificationsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsPage.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		137BFF801DED69790080C91B /* AdData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdData.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		137BFF821DED6CB80080C91B /* NotificationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationData.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		137BFF851DED75E80080C91B /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		138B813C1E291568002AC61B /* ProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		138B813E1E29D35A002AC61B /* ChangePasswordPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordPage.swift; sourceTree = "<group>"; };
+		139205371E3B8BBF00E38120 /* PointsToVipPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsToVipPage.swift; sourceTree = "<group>"; };
+		1398F11F1E4EC6380085323B /* IAPData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPData.swift; sourceTree = "<group>"; };
+		139BAFF31DE947C900D01E12 /* ServerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerData.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		13A134941DE3E6F10076E7AE /* FeiTiVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiTiVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A134971DE3E6F10076E7AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13A134991DE3E6F10076E7AE /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		13A1349C1DE3E6F10076E7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A1349E1DE3E6F10076E7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13A134A31DE3E6F10076E7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A134AA1DE3E7C60076E7AE /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		13A134AC1DE3E7C60076E7AE /* FeiTiVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FeiTiVPN.entitlements; sourceTree = "<group>"; };
+		13A134B01DE3E8330076E7AE /* AdMob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMob.swift; sourceTree = "<group>"; };
+		13A134B21DE3E9B40076E7AE /* IAP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAP.swift; sourceTree = "<group>"; };
+		13A134B41DE3EAAE0076E7AE /* IKev2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKev2.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		13A134BA1DE3ED140076E7AE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		13A134BB1DE3ED140076E7AE /* BasicExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicExtension.swift; sourceTree = "<group>"; };
+		13BCD4191E42E9F2007E7400 /* client.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.cer; sourceTree = "<group>"; };
+		13BCD4211E42FF00007E7400 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		13BCD4231E42FF3E007E7400 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		13BCD4251E42FF4F007E7400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13BCD4261E42FF52007E7400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13BCD4281E42FF74007E7400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		13D025101E41BBCB00244617 /* ManualDetailPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualDetailPage.swift; sourceTree = "<group>"; };
+		13D025121E41C1E200244617 /* manual_connect_cn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manual_connect_cn; sourceTree = "<group>"; };
+		13D025131E41C1E200244617 /* manual_connect_en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manual_connect_en; sourceTree = "<group>"; };
+		13D025161E41D77300244617 /* manual_points_cn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manual_points_cn; sourceTree = "<group>"; };
+		13D025171E41D77300244617 /* manual_points_en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manual_points_en; sourceTree = "<group>"; };
+		13E638FF1DFA7EDE00A513AB /* ManualPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualPage.swift; sourceTree = "<group>"; };
+		13E639011DFA8C4E00A513AB /* manual_qna_cn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manual_qna_cn; sourceTree = "<group>"; };
+		13E639031DFAA60500A513AB /* manual_qna_en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manual_qna_en; sourceTree = "<group>"; };
+		13EE80E51E44424B00C3F17E /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/Main.strings"; sourceTree = "<group>"; };
+		13EE80E61E44424B00C3F17E /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		13EE80E71E44424B00C3F17E /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		13EE80E81E44428300C3F17E /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13EE80E91E44428300C3F17E /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Localizable.strings; sourceTree = "<group>"; };
+		13EE80EA1E44428300C3F17E /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Main.strings; sourceTree = "<group>"; };
+		13EFD30B1DE9AE54000DF0B6 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		13EFD3121DEAC5A4000DF0B6 /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		13EFD3141DEACEA9000DF0B6 /* FeiTiAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeiTiAPI.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		88C49F3F1F0DD5A40043B1B1 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A134911DE3E6F10076E7AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C49F401F0DD5A40043B1B1 /* GoogleMobileAds.framework in Frameworks */,
+				13A134AB1DE3E7C60076E7AE /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130D00AB1DE6DB6700E2EF49 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				13A134991DE3E6F10076E7AE /* SignInPage.swift */,
+				132E23E71DE840D6006C1A3A /* ConnectPage.swift */,
+				1306373B1DF54857009A544C /* BuyPage.swift */,
+				13E638FF1DFA7EDE00A513AB /* ManualPage.swift */,
+				134EE1A41DFBED5A0004CE2F /* SettingsPage.swift */,
+				130A7A571E24AB2600790904 /* HomePage.swift */,
+				138B813C1E291568002AC61B /* ProfilePage.swift */,
+				138B813E1E29D35A002AC61B /* ChangePasswordPage.swift */,
+				1370D0C31E3B11DD00B8E2D7 /* NotificationsPage.swift */,
+				139205371E3B8BBF00E38120 /* PointsToVipPage.swift */,
+				13D025101E41BBCB00244617 /* ManualDetailPage.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		131A2E651DEC284C008232AD /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				1314D7671E2DC058004902D1 /* FeiTiAPIError.swift */,
+			);
+			name = Error;
+			sourceTree = "<group>";
+		};
+		136468191DE46B6000E2FBC2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				13A1349B1DE3E6F10076E7AE /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		137BFF841DED75C70080C91B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				137BFF851DED75E80080C91B /* Utility.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		138789FB1DF9492400E5E994 /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				13D025161E41D77300244617 /* manual_points_cn */,
+				13D025171E41D77300244617 /* manual_points_en */,
+				13D025121E41C1E200244617 /* manual_connect_cn */,
+				13D025131E41C1E200244617 /* manual_connect_en */,
+				13E639031DFAA60500A513AB /* manual_qna_en */,
+				13E639011DFA8C4E00A513AB /* manual_qna_cn */,
+			);
+			name = Manual;
+			sourceTree = "<group>";
+		};
+		139BAFF21DE9478F00D01E12 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				13EFD30B1DE9AE54000DF0B6 /* UserData.swift */,
+				139BAFF31DE947C900D01E12 /* ServerData.swift */,
+				137BFF801DED69790080C91B /* AdData.swift */,
+				137BFF821DED6CB80080C91B /* NotificationData.swift */,
+				1398F11F1E4EC6380085323B /* IAPData.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		13A1348B1DE3E6F10076E7AE = {
+			isa = PBXGroup;
+			children = (
+				88C49F3F1F0DD5A40043B1B1 /* GoogleMobileAds.framework */,
+				13A134961DE3E6F10076E7AE /* FeiTiVPN */,
+				13A134951DE3E6F10076E7AE /* Products */,
+				13A134A91DE3E7C60076E7AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13A134951DE3E6F10076E7AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A134941DE3E6F10076E7AE /* FeiTiVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A134961DE3E6F10076E7AE /* FeiTiVPN */ = {
+			isa = PBXGroup;
+			children = (
+				138789FB1DF9492400E5E994 /* Manual */,
+				137BFF841DED75C70080C91B /* Utility */,
+				13EFD3111DEAC535000DF0B6 /* Storage */,
+				139BAFF21DE9478F00D01E12 /* Data */,
+				13A134B91DE3ED050076E7AE /* Extension */,
+				13A134B61DE3EC9F0076E7AE /* Resources */,
+				13A134AF1DE3E8090076E7AE /* Network */,
+				131A2E651DEC284C008232AD /* Error */,
+				130D00AB1DE6DB6700E2EF49 /* UI */,
+				13A134AC1DE3E7C60076E7AE /* FeiTiVPN.entitlements */,
+				13A134971DE3E6F10076E7AE /* AppDelegate.swift */,
+				13A1349E1DE3E6F10076E7AE /* Assets.xcassets */,
+				13A134A31DE3E6F10076E7AE /* Info.plist */,
+			);
+			path = FeiTiVPN;
+			sourceTree = "<group>";
+		};
+		13A134A91DE3E7C60076E7AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A134AA1DE3E7C60076E7AE /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A134AF1DE3E8090076E7AE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				13A134B41DE3EAAE0076E7AE /* IKev2.swift */,
+				13A134B21DE3E9B40076E7AE /* IAP.swift */,
+				13A134B01DE3E8330076E7AE /* AdMob.swift */,
+				13EFD3141DEACEA9000DF0B6 /* FeiTiAPI.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		13A134B61DE3EC9F0076E7AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD41C1E42FB7C007E7400 /* Localization */,
+				13A134B71DE3ECD70076E7AE /* Certificate */,
+				136468191DE46B6000E2FBC2 /* UI */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13A134B71DE3ECD70076E7AE /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4191E42E9F2007E7400 /* client.cer */,
+			);
+			name = Certificate;
+			sourceTree = "<group>";
+		};
+		13A134B91DE3ED050076E7AE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				13A134BA1DE3ED140076E7AE /* UIViewControllerExtension.swift */,
+				13A134BB1DE3ED140076E7AE /* BasicExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		13BCD41C1E42FB7C007E7400 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4241E42FF3E007E7400 /* InfoPlist.strings */,
+				132BE37B1E436E0200F517A7 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		13EFD3111DEAC535000DF0B6 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				13EFD3121DEAC5A4000DF0B6 /* LocalStorage.swift */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A134931DE3E6F10076E7AE /* FeiTiVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A134A61DE3E6F10076E7AE /* Build configuration list for PBXNativeTarget "FeiTiVPN" */;
+			buildPhases = (
+				13A134901DE3E6F10076E7AE /* Sources */,
+				13A134911DE3E6F10076E7AE /* Frameworks */,
+				13A134921DE3E6F10076E7AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeiTiVPN;
+			productName = FeiTiVPN;
+			productReference = 13A134941DE3E6F10076E7AE /* FeiTiVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A1348C1DE3E6F10076E7AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = FeiTi;
+				TargetAttributes = {
+					13A134931DE3E6F10076E7AE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 88K48TF3WH;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 13A1348F1DE3E6F10076E7AE /* Build configuration list for PBXProject "FeiTiVPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hans-CN",
+				zh,
+			);
+			mainGroup = 13A1348B1DE3E6F10076E7AE;
+			productRefGroup = 13A134951DE3E6F10076E7AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A134931DE3E6F10076E7AE /* FeiTiVPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A134921DE3E6F10076E7AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D025181E41D77300244617 /* manual_points_cn in Resources */,
+				13D025151E41C1E200244617 /* manual_connect_en in Resources */,
+				132BE3791E436E0200F517A7 /* Localizable.strings in Resources */,
+				13E639041DFAA60500A513AB /* manual_qna_en in Resources */,
+				13E639021DFA8C4E00A513AB /* manual_qna_cn in Resources */,
+				13D025191E41D77300244617 /* manual_points_en in Resources */,
+				13D025141E41C1E200244617 /* manual_connect_cn in Resources */,
+				13A1349F1DE3E6F10076E7AE /* Assets.xcassets in Resources */,
+				13BCD41A1E42E9F2007E7400 /* client.cer in Resources */,
+				13A1349D1DE3E6F10076E7AE /* Main.storyboard in Resources */,
+				13BCD4221E42FF3E007E7400 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A134901DE3E6F10076E7AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E639001DFA7EDE00A513AB /* ManualPage.swift in Sources */,
+				13EFD3151DEACEA9000DF0B6 /* FeiTiAPI.swift in Sources */,
+				13A1349A1DE3E6F10076E7AE /* SignInPage.swift in Sources */,
+				138B813D1E291568002AC61B /* ProfilePage.swift in Sources */,
+				139205381E3B8BBF00E38120 /* PointsToVipPage.swift in Sources */,
+				13A134B11DE3E8330076E7AE /* AdMob.swift in Sources */,
+				13D025111E41BBCB00244617 /* ManualDetailPage.swift in Sources */,
+				13A134BC1DE3ED140076E7AE /* UIViewControllerExtension.swift in Sources */,
+				132E23E81DE840D6006C1A3A /* ConnectPage.swift in Sources */,
+				13A134B51DE3EAAE0076E7AE /* IKev2.swift in Sources */,
+				1314D7681E2DC058004902D1 /* FeiTiAPIError.swift in Sources */,
+				137BFF861DED75E80080C91B /* Utility.swift in Sources */,
+				1306373C1DF54857009A544C /* BuyPage.swift in Sources */,
+				137BFF811DED69790080C91B /* AdData.swift in Sources */,
+				13A134B31DE3E9B40076E7AE /* IAP.swift in Sources */,
+				139BAFF41DE947C900D01E12 /* ServerData.swift in Sources */,
+				13A134BD1DE3ED140076E7AE /* BasicExtension.swift in Sources */,
+				13EFD3131DEAC5A4000DF0B6 /* LocalStorage.swift in Sources */,
+				1398F1201E4EC6380085323B /* IAPData.swift in Sources */,
+				130A7A581E24AB2600790904 /* HomePage.swift in Sources */,
+				134EE1A51DFBED5A0004CE2F /* SettingsPage.swift in Sources */,
+				1370D0C41E3B11DD00B8E2D7 /* NotificationsPage.swift in Sources */,
+				13EFD30D1DE9AE54000DF0B6 /* UserData.swift in Sources */,
+				137BFF831DED6CB80080C91B /* NotificationData.swift in Sources */,
+				13A134981DE3E6F10076E7AE /* AppDelegate.swift in Sources */,
+				138B813F1E29D35A002AC61B /* ChangePasswordPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		132BE37B1E436E0200F517A7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132BE37A1E436E0200F517A7 /* Base */,
+				132BE37C1E436E2500F517A7 /* en */,
+				132BE37D1E436E2700F517A7 /* zh-Hans */,
+				13EE80E71E44424B00C3F17E /* zh-Hans-CN */,
+				13EE80E91E44428300C3F17E /* zh */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		13A1349B1DE3E6F10076E7AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A1349C1DE3E6F10076E7AE /* Base */,
+				13BCD4211E42FF00007E7400 /* zh-Hans */,
+				13BCD4281E42FF74007E7400 /* en */,
+				13EE80E51E44424B00C3F17E /* zh-Hans-CN */,
+				13EE80EA1E44428300C3F17E /* zh */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13BCD4241E42FF3E007E7400 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BCD4231E42FF3E007E7400 /* zh-Hans */,
+				13BCD4251E42FF4F007E7400 /* Base */,
+				13BCD4261E42FF52007E7400 /* en */,
+				13EE80E61E44424B00C3F17E /* zh-Hans-CN */,
+				13EE80E81E44428300C3F17E /* zh */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A134A41DE3E6F10076E7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A134A51DE3E6F10076E7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A134A71DE3E6F10076E7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FeiTiVPN/FeiTiVPN.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 88K48TF3WH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FeiTiVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiti.feitiservice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A134A81DE3E6F10076E7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FeiTiVPN/FeiTiVPN.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 88K48TF3WH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FeiTiVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiti.feitiservice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A1348F1DE3E6F10076E7AE /* Build configuration list for PBXProject "FeiTiVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A134A41DE3E6F10076E7AE /* Debug */,
+				13A134A51DE3E6F10076E7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A134A61DE3E6F10076E7AE /* Build configuration list for PBXNativeTarget "FeiTiVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A134A71DE3E6F10076E7AE /* Debug */,
+				13A134A81DE3E6F10076E7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A1348C1DE3E6F10076E7AE /* Project object */;
+}

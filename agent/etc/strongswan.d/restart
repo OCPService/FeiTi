@@ -1,0 +1,3 @@
+#/bin/bash
+/etc/strongswan.d/stop
+/etc/strongswan.d/run

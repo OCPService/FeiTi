@@ -1,0 +1,17 @@
+#!/bin/bash
+host='api.feitivpn.xyz'
+kind=1
+allonlines=$(sudo ipsec leases|grep -v 'Leases in pool'|grep online|awk '{print $3}'|cut -c2-33)
+for hash in ${allonlines[@]}
+do
+    body="{\"command\": \"v2_sys_vpn_auth\", \"hash\": \"$hash\", \"kind\": \"$kind\"}"
+    response=$(curl "https://$host" -g -s --insecure -H 'Content-Type: application/json' -X POST -d "$body")
+    if [ $response ] && [ $response = '1' ]; then
+        echo 'valid'
+    else
+        ip=$(sudo ipsec leases|grep -v 'Leases in pool'|grep online|grep "$hash"|head -1|awk '{print $1}')
+        if [ $ip ]; then
+           sudo ipsec down-srcip $ip
+        fi
+    fi
+done

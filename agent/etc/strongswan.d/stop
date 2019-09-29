@@ -1,0 +1,5 @@
+#!/bin/bash
+pid=$(ps -aux |grep kill|grep bash|awk '{print $2}')
+if [ $pid ]; then
+    kill $pid
+fi

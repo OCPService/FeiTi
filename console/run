@@ -1,0 +1,3 @@
+#/bin/bash
+cd /etc/feiti/console/
+nohup python FeiTiAPI.py &

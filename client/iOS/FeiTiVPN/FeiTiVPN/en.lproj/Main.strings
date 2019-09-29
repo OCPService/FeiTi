@@ -1,0 +1,195 @@
+
+/* Class = "UILabel"; text = "Points:"; ObjectID = "2uX-Po-Gby"; */
+"2uX-Po-Gby.text" = "Points:";
+
+/* Class = "UILabel"; text = "Free Refresh"; ObjectID = "sJN-6A-FnG"; */
+"sJN-6A-FnG.text" = "Free Refresh";
+
+/* Class = "UIButton"; normalTitle = "Renew"; ObjectID = "nu7-Ww-Qk8"; */
+"nu7-Ww-Qk8.normalTitle" = "Renew";
+
+/* Class = "UITabBarItem"; title = "Buy"; ObjectID = "35z-pN-Gw2"; */
+"35z-pN-Gw2.title" = "Buy";
+
+/* Class = "UILabel"; text = "Rate"; ObjectID = "4Lk-yW-FvX"; */
+"4Lk-yW-FvX.text" = "Rate";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "4uD-Xs-7E4"; */
+"4uD-Xs-7E4.text" = "Status";
+
+/* Class = "UILabel"; text = "Expire: "; ObjectID = "6VF-A0-Wem"; */
+"6VF-A0-Wem.text" = "Expire: ";
+
+/* Class = "UILabel"; text = "3000 points"; ObjectID = "7sD-xr-Gjg"; */
+"7sD-xr-Gjg.text" = "3000 points";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "8ub-E5-b5f"; */
+"8ub-E5-b5f.normalTitle" = "Sign In";
+
+/* Class = "UITableViewSection"; headerTitle = "How To Use"; ObjectID = "AfB-JE-9er"; */
+"AfB-JE-9er.headerTitle" = "How To Use";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "Aue-tY-2Ju"; */
+"Aue-tY-2Ju.text" = "Change Password";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Azb-7v-C7U"; */
+"Azb-7v-C7U.title" = "Settings";
+
+/* Class = "UINavigationItem"; title = "Manual"; ObjectID = "BVF-ZA-owc"; */
+"BVF-ZA-owc.title" = "Manual";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "Do4-e5-N78"; */
+"Do4-e5-N78.text" = "Notifications";
+
+/* Class = "UITableViewSection"; headerTitle = "Account"; ObjectID = "Gcj-Qk-bnT"; */
+"Gcj-Qk-bnT.headerTitle" = "Account";
+
+/* Class = "UILabel"; text = "30 days VIP"; ObjectID = "Hof-A4-IFp"; */
+"Hof-A4-IFp.text" = "30 days VIP";
+
+/* Class = "UILabel"; text = "Share to friends"; ObjectID = "MEw-hX-wu3"; */
+"MEw-hX-wu3.text" = "Share to friends";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "P0v-jr-ofi"; */
+"P0v-jr-ofi.normalTitle" = "Update";
+
+/* Class = "UILabel"; text = "#####################"; ObjectID = "P9o-eS-K5A"; */
+"P9o-eS-K5A.text" = "#####################";
+
+/* Class = "UILabel"; text = "Points to VIP"; ObjectID = "Pno-oN-OHs"; */
+"Pno-oN-OHs.text" = "Points to VIP";
+
+/* Class = "UILabel"; text = "How to redeem VIP with points?"; ObjectID = "QVq-G2-AP1"; */
+"QVq-G2-AP1.text" = "How to redeem VIP with points?";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "RRX-EW-mD5"; */
+"RRX-EW-mD5.text" = "Contact Us";
+
+/* Class = "UINavigationItem"; title = "Manual - Detail"; ObjectID = "Rl7-9J-cpT"; */
+"Rl7-9J-cpT.title" = "Manual - Detail";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "T8j-kG-hbN"; */
+"T8j-kG-hbN.text" = "Title";
+
+/* Class = "UILabel"; text = "Buy Detail"; ObjectID = "Uxz-Do-hQi"; */
+"Uxz-Do-hQi.text" = "Buy Detail";
+
+/* Class = "UINavigationItem"; title = "Points to VIP"; ObjectID = "W1S-sm-yji"; */
+"W1S-sm-yji.title" = "Points to VIP";
+
+/* Class = "UITableViewSection"; headerTitle = "Q & A"; ObjectID = "X6R-a9-3wJ"; */
+"X6R-a9-3wJ.headerTitle" = "Q & A";
+
+/* Class = "UITabBarController"; title = "Home"; ObjectID = "YPl-HT-z3a"; */
+"YPl-HT-z3a.title" = "Home";
+
+/* Class = "UILabel"; text = "Type:"; ObjectID = "YUp-je-IWP"; */
+"YUp-je-IWP.text" = "Type:";
+
+/* Class = "UITabBarItem"; title = "Manual"; ObjectID = "aJx-Xf-l2W"; */
+"aJx-Xf-l2W.title" = "Manual";
+
+/* Class = "UINavigationItem"; title = "Change Password"; ObjectID = "aU4-Yd-ltT"; */
+"aU4-Yd-ltT.title" = "Change Password";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "ab0-vC-pCU"; */
+"ab0-vC-pCU.title" = "Settings";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "aoA-IJ-tgK"; */
+"aoA-IJ-tgK.title" = "Profile";
+
+/* Class = "UINavigationItem"; title = "Buy"; ObjectID = "awp-YR-cyk"; */
+"awp-YR-cyk.title" = "Buy";
+
+/* Class = "UILabel"; text = "Account:"; ObjectID = "b1N-Tg-EcW"; */
+"b1N-Tg-EcW.text" = "Account:";
+
+/* Class = "UITableViewSection"; headerTitle = "User Status"; ObjectID = "c0M-M7-pxe"; */
+"c0M-M7-pxe.headerTitle" = "User Status";
+
+/* Class = "UILabel"; text = "######################"; ObjectID = "ctP-Ty-LV0"; */
+"ctP-Ty-LV0.text" = "######################";
+
+/* Class = "UILabel"; text = "######################"; ObjectID = "dZV-BM-Bxr"; */
+"dZV-BM-Bxr.text" = "######################";
+
+/* Class = "UILabel"; text = "Account:"; ObjectID = "dj8-Mi-mgE"; */
+"dj8-Mi-mgE.text" = "Account:";
+
+/* Class = "UILabel"; text = "FeiTi VPN"; ObjectID = "du2-uh-ri7"; */
+"du2-uh-ri7.text" = "FeiTi VPN";
+
+/* Class = "UITabBarItem"; title = "Connect"; ObjectID = "eEG-Va-gbL"; */
+"eEG-Va-gbL.title" = "Connect";
+
+/* Class = "UILabel"; text = "Code:"; ObjectID = "eSz-Jf-ZEV"; */
+"eSz-Jf-ZEV.text" = "Code:";
+
+/* Class = "UILabel"; text = "Make Limit Unlimited!!!"; ObjectID = "fqz-DX-uLX"; */
+"fqz-DX-uLX.text" = "Make Limit Unlimited!!!";
+
+/* Class = "UIButton"; normalTitle = "Retrieve User Code"; ObjectID = "iZw-dI-3PQ"; */
+"iZw-dI-3PQ.normalTitle" = "Retrieve User Code";
+
+/* Class = "UINavigationItem"; title = "Connect"; ObjectID = "jPs-kj-bT0"; */
+"jPs-kj-bT0.title" = "Connect";
+
+/* Class = "UITableViewSection"; headerTitle = "VPN Select"; ObjectID = "kG1-AO-HO1"; */
+"kG1-AO-HO1.headerTitle" = "VPN Select";
+
+/* Class = "UILabel"; text = "Not Connected"; ObjectID = "kLs-ug-dhH"; */
+"kLs-ug-dhH.text" = "Not Connected";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "lZe-PH-WRN"; */
+"lZe-PH-WRN.text" = "Profile";
+
+/* Class = "UILabel"; text = "Account"; ObjectID = "m9u-P3-f4B"; */
+"m9u-P3-f4B.text" = "Account";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "mOO-KD-wGD"; */
+"mOO-KD-wGD.text" = "Password";
+
+/* Class = "UILabel"; text = "Expire:"; ObjectID = "neR-j0-gOI"; */
+"neR-j0-gOI.text" = "Expire:";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "oO1-Oz-FZK"; */
+"oO1-Oz-FZK.text" = "Password:";
+
+/* Class = "UILabel"; text = "7 days VIP"; ObjectID = "ozm-LU-2S3"; */
+"ozm-LU-2S3.text" = "7 days VIP";
+
+/* Class = "UILabel"; text = "######################"; ObjectID = "p4J-0y-PPo"; */
+"p4J-0y-PPo.text" = "######################";
+
+/* Class = "UINavigationItem"; title = "Notifications"; ObjectID = "qAa-ic-OxV"; */
+"qAa-ic-OxV.title" = "Notifications";
+
+/* Class = "UILabel"; text = "Buy Header"; ObjectID = "qmf-Ql-XZ1"; */
+"qmf-Ql-XZ1.text" = "Buy Header";
+
+/* Class = "UILabel"; text = "2000 points"; ObjectID = "rbT-D2-0ve"; */
+"rbT-D2-0ve.text" = "2000 points";
+
+/* Class = "UILabel"; text = "######################"; ObjectID = "s1d-SC-z8W"; */
+"s1d-SC-z8W.text" = "######################";
+
+/* Class = "UITableViewSection"; headerTitle = "VPN Connect"; ObjectID = "t2B-nG-OU9"; */
+"t2B-nG-OU9.headerTitle" = "VPN Connect";
+
+/* Class = "UILabel"; text = "15 days VIP"; ObjectID = "u2j-wx-ca5"; */
+"u2j-wx-ca5.text" = "15 days VIP";
+
+/* Class = "UITableViewSection"; headerTitle = "Extra"; ObjectID = "uvf-qp-hVg"; */
+"uvf-qp-hVg.headerTitle" = "Extra";
+
+/* Class = "UILabel"; text = "1000 points"; ObjectID = "v8w-Hh-MlY"; */
+"v8w-Hh-MlY.text" = "1000 points";
+
+/* Class = "UILabel"; text = "Sign Out"; ObjectID = "vVZ-24-qny"; */
+"vVZ-24-qny.text" = "Sign Out";
+
+/* Class = "UILabel"; text = "Buy Price"; ObjectID = "yag-xs-180"; */
+"yag-xs-180.text" = "$0.00";
+
+/* Class = "UILabel"; text = "How to connect VPN?"; ObjectID = "zCe-d6-L1h"; */
+"zCe-d6-L1h.text" = "How to connect VPN?";

@@ -1,0 +1,3 @@
+#/bin/bash
+/etc/feiti/console/stop
+/etc/feiti/console/run

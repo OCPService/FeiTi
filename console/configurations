@@ -1,0 +1,82 @@
+{
+  "servers": [
+    {
+      "ip": "jp1.feitivpn.xyz",
+      "name": "JAPAN 01",
+      "name_cn": "日本01",
+      "kind": 1
+    },
+    {
+      "ip": "jp2.feitivpn.xyz",
+      "name": "JAPAN 02 (VIP)",
+      "name_cn": "日本02 (VIP)",
+      "kind": 8
+    }
+  ],
+  "iap": [
+    {
+      "id": "com.feiti.feitiservice.vip.one.month",
+      "title": "VIP User (1 Month)",
+      "title_cn": "VIP用户（一个月）",
+      "description": "Buy FeiTi VIP for 1 Month, be able to use VIP Servers.",
+      "description_cn": "开通飞梯VIP用户一个月，可以使用VIP服务器."
+    },
+    {
+      "id": "com.feiti.feitiservice.vip.three.month",
+      "title": "VIP User (3 Months)",
+      "title_cn": "VIP用户（三个月）",
+      "description": "Buy FeiTi VIP for 3 Months, be able to use VIP Servers.",
+      "description_cn": "开通飞梯VIP用户三个月，可以使用VIP服务器."
+    },
+    {
+      "id": "com.feiti.feitiservice.vip.six.month",
+      "title": "VIP User (6 Months)",
+      "title_cn": "VIP用户（半年）",
+      "description": "Buy FeiTi VIP for 6 Months, be able to use VIP Servers.",
+      "description_cn": "开通飞梯VIP用户半年，可以使用VIP服务器."
+    },
+    {
+      "id": "com.feiti.feitiservice.vip.twelve.month",
+      "title": "VIP User (1 Year)",
+      "title_cn": "VIP用户（一年）",
+      "description": "Buy FeiTi VIP for 1 Year, be able to use VIP Servers.",
+      "description_cn": "开通飞梯VIP用户一年，可以使用VIP服务器."
+    }
+  ],
+  "iap_ids": [
+    "com.feiti.feitiservice.vip.one.month",
+    "com.feiti.feitiservice.vip.three.month",
+    "com.feiti.feitiservice.vip.six.month",
+    "com.feiti.feitiservice.vip.twelve.month"
+  ],
+  "ad": {
+    "provider": "admob",
+    "banner_id": "ca-app-pub-2274430690643715/1869187984",
+    "inter_ad_id": "ca-app-pub-2274430690643715/2927118789"
+  },
+  "notifications": [
+    {
+      "title": "2.0 updating",
+      "title_cn": "2.0 更新",
+      "content": "All FeiTi VPN updated to IKEV2",
+      "content_cn": "所有飞梯VPN协议更新为IKEV2",
+      "date": "2016-12-30 15:23:22"
+    },
+    {
+      "title": "Server list update",
+      "title_cn": "服务器列表更新",
+      "content": "US server is removed temporary for some tech issues",
+      "content_cn": "美国服务器发生技术问题暂时被移除",
+      "date": "2017-02-08 14:35:15"
+    },
+    {
+      "title": "2.2 updating",
+      "title_cn": "2.2 更新",
+      "content": "Fixed some bugs for sign up and in app purchase localization",
+      "content_cn": "修复了一些注册时和应用内购时的问题",
+      "date": "2017-02-15 14:18:34"
+    }
+  ],
+  "manually_sign_in": False,
+  "support_mail": "feitisupport@163.com"
+}

@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /etc/strongswan.d/
+nohup /etc/strongswan.d/kill &

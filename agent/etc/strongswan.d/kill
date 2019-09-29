@@ -1,0 +1,11 @@
+#!/bin/bash
+while [ "1" = "1" ]
+do
+    sleep 10
+    ips=$(ls /etc/strongswan.d/invalid/)
+    for ip in ${ips[@]}
+    do
+        sudo ipsec down-srcip $ip
+        rm /etc/strongswan.d/invalid/$ip
+    done
+done

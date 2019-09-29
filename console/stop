@@ -1,0 +1,6 @@
+#!/bin/bash
+process_id_api=$(ps -aux|grep python|grep FeiTiAPI|awk '{print $2}') 
+if [ $process_id_api ] 
+then
+    kill $process_id_api
+fi
